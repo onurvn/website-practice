@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monospace;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+.arkaplan {
+    background-color: #25353E;
+}
+
+.kapsayici {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.ust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+
+.ust .logo {
+    text-align: center;
+    color: #fff;
+}
+
+.ust .logo h1 {
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+}
+
+.ust .logo h2 {
+    font-size: 2.4rem;
+}
+
+.ust .menu ul {
+    display: flex;
+}
+
+.ust .menu ul li {
+    margin: 0 1rem;
+}
+
+.ust .menu ul a {
+    font-size: 1.8rem;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+.ust .menu ul a:hover {
+    color: gold;
+    transition: .9s all ease;
+}
+
+.orta .bolum1 {
+    margin-top: 2rem;
+}
+
+.orta .bolum2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orta .bolum2 .kutu {
+    flex-basis: 290px;
+}
+
+.orta .bolum2 .kutu h2 {
+    font-size: 2rem;
+}
+
+.orta .bolum2 .kutu p {
+    font-size: 1.5rem;
+}
+
+.orta .bolum3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 20px;
+}
+
+.orta .bolum3 h1 {
+    font-size: 2rem;
+}
+
+.orta .bolum3 p {
+    font-size: 1.5rem;
+}
+
+.cizgi {
+    border-top: solid 1px #25353e66;
+    margin: 20px 0;
+}
+
+.alt {
+    display: flex;
+    padding: 20px 0;
+    margin-top: 2rem;
+}
+
+.alt .baglanti {
+    flex-grow: 1;
+}
+
+.alt .baglanti a {
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-bottom: .5rem;
+}
+
+.alt .baglanti a:hover {
+    color: gold;
+    transition: .9s all ease;
+}

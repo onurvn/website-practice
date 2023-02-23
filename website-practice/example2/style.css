@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana';
+
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.banner h2 {
+    color: #fff;
+}
+
+.menu {
+    background-color: grey;
+    height: 80px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.menu ul {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu ul li a {
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: black;
+    transition: .5s all ease-in-out;
+}
+
+.icerik {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.icerik .sol {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(100, 148, 237, 0.611);
+    margin-right: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icerik .sol p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.icerik .tool {
+    display: flex;
+}
+
+.icerik .tool p {
+    margin-right: 10px;
+}
+
+.icerik .sag {
+    width: 20%;
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sag img {
+    height: 180px;
+}
+footer{
+    display: flex;
+    margin-top: 5px;
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    background-color: tomato;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: brown;
+    border-bottom: 2px dotted brown;
+}
+
+p {
+    font-style: italic;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.left {
+    float: left;
+    margin-right: 15px;
+}
+.right{
+    float: right;
+    margin-left: 15px;
+}
